@@ -11,6 +11,7 @@ const Routes = () => (
     <BRouter>
         <Switch>
             <Route path="/" exact component={ Home } />
+            <Route path="/repos" component={ Repos } />
         </Switch>
     </BRouter>
 );
